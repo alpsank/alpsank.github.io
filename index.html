@@ -1,3 +1,5 @@
+<!-- Sankalp Modwa: I threw this file/site together in 2 hours, don't be sad because of the quality of the code. We all do this. -->
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 	<head>
@@ -10,8 +12,7 @@
 	</head>
 	
 	<body bgcolor="#ffffff">
-		
-		<object width="800" height="600"> 
+		<object width="800" height="600" id="richslideshow"> 
 
 		<param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fphotos%2F95313141%40N02%2Fsets%2F72157668008861966%2Fshow%2F&page_show_back_url=%2Fphotos%2F95313141%40N02%2Fsets%2F72157668008861966%2F&set_id=72157668008861966&jump_to=">
 		</param> 
@@ -27,7 +28,7 @@
 
 		</object>
 
-		<div id="vlightbox1">
+		<div id="staticslideshow">
 			<a class="vlightbox1" href="index_files/vlb_images1/st1.jpg" title="ST-1"><img src="index_files/vlb_thumbnails1/st1.jpg" alt="ST-1"/></a>
 			<a class="vlightbox1" href="index_files/vlb_images1/st2.jpg" title="ST-2"><img src="index_files/vlb_thumbnails1/st2.jpg" alt="ST-2"/></a>
 			<a class="vlightbox1" href="index_files/vlb_images1/st3.jpg" title="ST-3"><img src="index_files/vlb_thumbnails1/st3.jpg" alt="ST-3"/></a>
@@ -38,6 +39,33 @@
 		
 		<script src="index_files/vlb_engine/vlbdata1.js" type="text/javascript"></script>
 
+		<script>
+			var hasFlash = false;
+			try 
+			{
+			  var fo = new ActiveXObject('ShockwaveFlash.ShockwaveFlash');
+			  if (fo) 
+			  {
+				hasFlash = true;
+			  }
+			} catch (e) 
+			{
+			  if (navigator.mimeTypes
+					&& navigator.mimeTypes['application/x-shockwave-flash'] != undefined
+					&& navigator.mimeTypes['application/x-shockwave-flash'].enabledPlugin) {
+				hasFlash = true;
+			  }
+			}
+			if (hasFlash == true)
+			{
+				document.getElementById('staticslideshow').style.display = 'none';
+			}
+			else
+			{
+				document.getElementById('richslideshow').style.display = 'none';
+			}
+		</script>
+		
 	</body>
 	
 </html>
