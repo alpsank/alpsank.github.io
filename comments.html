@@ -23,36 +23,33 @@
 					<li><a class="current" href="comments.html">Leave a wish!</a></li>
 				</ul>
 				<div id="comment">
-					<h2>Vivek and Sharmila Modwal</h2>
-					<h3>
-						<ul>
-							<li> Address: C-705, Sarita Vihar <br/>New Delhi, 110076
-							</li>
-							<br/>
-							<li> Email: vmodwal (at) yahoo (.com) 
-							</li>
-							<li> Phone-Vivek: +91-98103-23006
-							</li>
-							<li> Phone-Sharmila: +91-98717-91020
-							</li>
-						</ul>						
-					</h3>
-					<h2>Samarth Modwal</h2>
-					<h3>
-						<ul>
-							<li> Email: samarth_modwal (at) yahoo (.co.in) 
-							</li>
-							<li> Phone: +1-416-875-6718
-							</li>
-						</ul>						
-					</h3>
-					<h2>Sankalp Modwal</h2>
-					<h3>
-						<ul>
-							<li> Email: alpsank (at) yahoo (.com)
-							</li>
-						</ul>						
-					</h3>
+					<h2>Post your wishes for the couple</h2>
+					<form id="contactform" action="//formspree.io/alpsank@gmail.com" method="POST">
+						<h3>Name</h3>
+						<input type="text" name="name" placeholder="Enter name here">
+						<input type="email" name="_replyto" placeholder="Enter your email here">
+						<textarea name="message" placeholder="Enter message here"></textarea>
+						
+						<input type="submit" value="Send">
+						<input type="hidden" name="_next" value="index.html" />
+						<input type="hidden" name="_subject" value="SamarthAndTishya Website Contact" />
+						<input type="text" name="_gotcha" style="display:none" />
+					</form>
+					<br/><br/><br/><br/>
+					
+					<link rel="stylesheet" href="formoid_files/formoid1/formoid-solid-blue.css" type="text/css" />
+					<script type="text/javascript" src="formoid_files/formoid1/jquery.min.js"></script>
+					<form class="formoid-solid-blue" style="background-color:#353432;font-size:14px;font-family:'Roboto',Arial,Helvetica,sans-serif;color:#34495E;max-width:680px;min-width:150px" method="post"><div class="title"><h2>My form</h2></div>
+						<div class="element-name" title="Enter your name"><label class="title"><span class="required">*</span></label>
+						<span class="nameFirst"><input placeholder="Name First" type="text" size="8" name="name1[first]" required="required"/><span class="icon-place"></span></span><span class="nameLast"><input placeholder="Name Last" type="text" size="14" name="name1[last]" required="required"/><span class="icon-place"></span></span></div>
+						
+						<div class="element-email" title="Enter your email address"><label class="title"></label><div class="item-cont"><input class="large" type="email" name="email" value="" placeholder="Your email"/><span class="icon-place"></span></div></div>
+						
+						<div class="element-input" title="Message goes here"><label class="title"><span class="required">*</span></label><div class="item-cont"><input class="large" type="text" name="input1" required="required" placeholder="Enter your wishes here"/><span class="icon-place"></span></div></div>
+						
+						<div class="element-radio"><label class="title">I am coming!</label>		<div class="column column1"><label><input type="radio" name="radio" value="Yes" /><span>Yes</span></label><label><input type="radio" name="radio" value="No" /><span>No</span></label></div><span class="clearfix"></span>
+					</div>
+
 				</div>
 			</div>
 		</div>
