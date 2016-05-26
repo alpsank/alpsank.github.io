@@ -30,4 +30,8 @@ img { outline: 0; border: 0; }
 .content { background: url(../images/content.gif) repeat; padding: 20px; }
 .link { background: #304D6F; color: #fff; padding: 5px 10px; font-size: .9em; }
 #main { padding: 20px; 
-
+#footer { clear: both; background: url(../images/line.gif) repeat-x; padding: 20px 20px 10px; font-size: .9em; }
+	#footer a { color: #ccc; margin: 0 10px 0 0; border-bottom: 1px dotted #444; padding: 0 0 1px; }
+	#links { float: right; }
+		#links a { margin: 0 0 0 10px; }
+	#footer p { margin: 0 0 8px; }
