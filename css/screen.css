@@ -29,4 +29,5 @@ img { outline: 0; border: 0; }
 		#cake em { font-size: 1.3em; font-weight: bold; line-height: 1.6em; }
 .content { background: url(../images/content.gif) repeat; padding: 20px; }
 .link { background: #304D6F; color: #fff; padding: 5px 10px; font-size: .9em; }
-#main { padding: 20px; }
+#main { padding: 20px; 
+
