@@ -18,10 +18,10 @@ img { outline: 0; border: 0; }
 	#menu li { float: left; font-size: 1.5em; text-transform: uppercase; }
 		#menu li a { color: #888; margin: 0 50px 0 0; }
 			#menu li a.current, #menu li a:hover { color: #fff; }			
-	#pitch { clear: both; background: url(../images/pitch.jpg) no-repeat; height: 828px; width: 400 px; margin: 0 0 30px; padding: 60px 360px 0 30px; }
-		#pitch h1 { font-size: 2.4em; color: #304D6F; margin: 700px 0 100px; }
+	#pitch { clear: both; background: url(../images/walk.jpg) no-repeat; height: 1028px; width: 400 px; margin: 0 0 30px; padding: 60px 360px 0 30px; }
+		#pitch h1 { font-size: 2.4em; color: #304D6F; margin: 800px 0 100px; }
 		#pitch em { font-size: 2.3em; font-weight: bold; line-height: 1.6em; color: #4A6ED1; }
-	#walk { clear: both; background: url(../images/walk.jpg) no-repeat; height: 1028px; margin: 0 0 30px; padding: 60px 360px 0 30px; }
+	#walk { clear: both; background: url(../images/pitch.jpg) no-repeat; height: 800px; margin: 0 0 30px; padding: 60px 360px 0 30px; }
 		#walk h1 { font-size: 2.4em; color: #304D6F; margin: 800px 0 50px; }
 		#walk em { font-size: 1.3em; font-weight: bold; line-height: 1.6em; }
 	#cake { clear: both; background: url(../images/cake2.jpg) no-repeat; height: 1028px; width: 600 px; margin: 0 0 30px; padding: 60px 360px 0 30px; }
